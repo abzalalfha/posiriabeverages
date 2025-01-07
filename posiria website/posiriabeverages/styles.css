@@ -1,0 +1,214 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faf3e0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  background: url('images/kerala-background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 5px 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+header nav ul li a:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Home Section */
+#home {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/kerala-snacks-bg.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+#home h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#home .btn {
+  background-color: #ffc107;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 50px 20px;
+  background-color: #fff3e6;
+  text-align: center;
+  color: #333;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.about-us p {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Festive Features Section */
+.festive {
+  padding: 50px 20px;
+  background-color: #ffe4c4;
+  text-align: center;
+  color: #444;
+}
+
+.festive ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.festive ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.festive ul li strong {
+  color: #c14700;
+}
+
+/* Products Section */
+.products {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.product {
+  width: 300px;
+  border: 2px solid #ffc107;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.3s;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-us {
+  padding: 60px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+  color: #333;
+}
+
+.contact-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff7f50;
+}
+
+.contact-us p {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.contact-us form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us input,
+.contact-us textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus {
+  border-color: #ff7f50;
+  outline: none;
+}
+
+.contact-us button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff7f50;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-us button:hover {
+  background-color: #e66b3c;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
